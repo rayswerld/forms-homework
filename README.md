@@ -1,3 +1,3 @@
 # forms-homework
-*https://rayswerld.github.io/forms-homework/
-Assignment on creating forms!
+1. [Here be form](https://rayswerld.github.io/forms-homework/)
+2. Assignment on creating forms!
