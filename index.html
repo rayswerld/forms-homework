@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">    <link rel="stylesheet" href="styles.css">
+    <title>Sign-up Form</title>
+</head>
+<body>
+    <div class="main">
+        <div class="side-hero">
+            <div>
+                <img src="/Users/vulpes_vulpes/Desktop/forms-hw/odin-lined.png" alt="Odin-Logo">
+                <h1>Sign-up Form</h1>
+            </div>
+            <p>Photo by <a href="https://unsplash.com/@8moments?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Simon Berger</a> on <a href="https://unsplash.com/backgrounds/colors?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </p>
+          </div>
+        <div class="form-section">
+            <div class="header">
+              <div>
+                <p>This is not a real online service! You know you don't need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+                <p>You <em>know</em> you want to.</p>
+              </div>
+            </div>
+            <div class='input-section'>
+                <p>Let's do this! </p>
+                <form action=# id="my-form">
+                  <label for="firstname">First Name *
+                    <input type="text" id="firstname" name="firstname" placeholder="Bilbo..." required>
+                  </label>
+                  <label for="lastname">Last Name *
+                    <input type="text" id="lastname" name="lastname" placeholder="Baggins..." required>
+                  </label>
+                  <label for="email">Email *
+                    <input type="email" id="email" name="email" placeholder="b.baggins@shire.com" required autocomplete="off">
+                  </label>
+                  <label for="phonenumber">Phone Number *
+                    <input type="tel" id="phonenumber" name="phonenumber" placeholder="123-123-1234" required
+                    pattern='[0-9]{3}-[0-9]{3}-[0-9]{4}'>
+                  </label>
+                  <label for="password">Password *
+                    <input type="password" id="password" name="password" required
+                    pattern='(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}'>
+                  </label>
+                  <label for="passwordC">Confirm Password *
+                    <input type="password" id="passwordC" name="passwordC" required
+                    pattern='(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}'>
+                  </label>
+                </form>
+            </div> 
+            <div class="submit">
+                <button type="submit" form="my-form">Create Account</button>
+                <p>Already have an account? <a href="">Log in</a></p>
+            </div> 
+        </div>            
+    </div>
+    
+    </body>
+</html>

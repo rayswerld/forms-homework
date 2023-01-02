@@ -1,0 +1,115 @@
+
+.main{
+    font-family: Montserrat;
+    display: flex;
+    justify-content: center;
+    width:100vw;
+  }
+
+.side-hero {
+    flex-grow: 1;
+    position: relative;
+    width: 60vw;
+    min-width: 345px;
+    height: 100vh;
+    background: url(https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1803&q=80);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .side-hero div {
+    width: 100%;
+    line-height: 2rem;
+    padding: 0px 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .side-hero img {
+    width: 5rem;
+    padding: 10px;
+  }
+  .side-hero p {
+    font-size: .8rem;
+    color: rgba(255, 255, 255, 0.575);
+    position: absolute;
+    bottom: 0px;
+    right: 5px;
+  }
+  
+  .form-section {
+    display: flex;
+    width: 60vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    flex-grow: 2;
+    background-color: #F5EDCE;
+  }
+
+  .header p {
+    padding: 10px;
+  }
+
+  .header {
+    font-weight: 600;
+  }
+  
+  .input-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #89C4E1;
+    padding: 1.2rem 2vw 3rem 2vw;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.123);
+  }
+
+  form {
+    display: flex;
+    justify-content: center;
+    width: 60vw;
+    flex-flow: row wrap;
+    gap: 1rem;
+    font-size: 1rem;
+  }
+
+  label {
+    position: relative;
+    width: 15rem;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  .submit {
+    margin: 2rem 1rem;
+  }
+
+  button[type='submit'] {
+    padding: .8rem 1.3rem;
+    font-size: 1.3rem;
+    background-color: #58287F;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    letter-spacing: -1px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.253);
+  }
+
+  button[type='submit']:hover {
+    background-color: rgb(126, 39, 126);
+  }
+
+  .error {
+    font-size: .7rem;
+    color: rgb(255, 69, 100);
+    position: absolute;
+  }
+  
